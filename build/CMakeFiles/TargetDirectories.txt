@@ -1,0 +1,17 @@
+/home/zcw/wenchat/MyChat/build/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/MyChat/build/CMakeFiles/rebuild_cache.dir
+/home/zcw/wenchat/MyChat/build/GateServer/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/MyChat/build/GateServer/CMakeFiles/rebuild_cache.dir
+/home/zcw/wenchat/MyChat/build/GateServer/src/CMakeFiles/GateServer.dir
+/home/zcw/wenchat/MyChat/build/GateServer/src/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/MyChat/build/GateServer/src/CMakeFiles/rebuild_cache.dir
+/home/zcw/wenchat/MyChat/build/StatusServer/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/MyChat/build/StatusServer/CMakeFiles/rebuild_cache.dir
+/home/zcw/wenchat/MyChat/build/StatusServer/src/CMakeFiles/StatusServer.dir
+/home/zcw/wenchat/MyChat/build/StatusServer/src/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/MyChat/build/StatusServer/src/CMakeFiles/rebuild_cache.dir
+/home/zcw/wenchat/MyChat/build/ChatServer/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/MyChat/build/ChatServer/CMakeFiles/rebuild_cache.dir
+/home/zcw/wenchat/MyChat/build/ChatServer/src/CMakeFiles/ChatServer.dir
+/home/zcw/wenchat/MyChat/build/ChatServer/src/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/MyChat/build/ChatServer/src/CMakeFiles/rebuild_cache.dir

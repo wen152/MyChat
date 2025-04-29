@@ -1,0 +1,5 @@
+/home/zcw/wenchat/Status/build/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/Status/build/CMakeFiles/rebuild_cache.dir
+/home/zcw/wenchat/Status/build/src/CMakeFiles/StatusServer.dir
+/home/zcw/wenchat/Status/build/src/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/Status/build/src/CMakeFiles/rebuild_cache.dir

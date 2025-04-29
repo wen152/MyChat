@@ -1,0 +1,5 @@
+/home/zcw/wenchat/Gate/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/Gate/CMakeFiles/rebuild_cache.dir
+/home/zcw/wenchat/Gate/src/CMakeFiles/GateServer.dir
+/home/zcw/wenchat/Gate/src/CMakeFiles/edit_cache.dir
+/home/zcw/wenchat/Gate/src/CMakeFiles/rebuild_cache.dir
