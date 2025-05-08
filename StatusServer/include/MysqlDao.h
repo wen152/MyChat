@@ -26,7 +26,7 @@ public:
 				pool_.push(std::make_unique<SqlConnection>(con, timestamp));
 			}
 
-			_check_thread = 	std::thread([this]() {
+			_check_thread = std::thread([this]() {
 				while (!b_stop_) {
 					checkConnection();
 					std::this_thread::sleep_for(std::chrono::seconds(60));
