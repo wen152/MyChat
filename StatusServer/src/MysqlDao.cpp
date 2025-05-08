@@ -29,22 +29,16 @@ int MysqlDao::RegUser(const std::string& name, const std::string& email, const s
 		stmt->setString(1, name);
 		stmt->setString(2, email);
 		stmt->setString(3, pwd);
-
-		// 由于PreparedStatement不直接支持注册输出参数，我们需要使用会话变量或其他方法来获取输出参数的值
-
-		  // 执行存储过程
 		stmt->execute();
-		// 如果存储过程设置了会话变量或有其他方式获取输出参数的值，你可以在这里执行SELECT查询来获取它们
-	   // 例如，如果存储过程设置了一个会话变量@result来存储输出结果，可以这样获取：
-	   unique_ptr<sql::Statement> stmtResult(con->_con->createStatement());
-	  unique_ptr<sql::ResultSet> res(stmtResult->executeQuery("SELECT @result AS result"));
-	  if (res->next()) {
-	       int result = res->getInt("result");
-	      cout << "Result: " << result << endl;
-		  pool_->returnConnection(std::move(con));
-		  return result;
-	  }
-	  pool_->returnConnection(std::move(con));
+	   	unique_ptr<sql::Statement> stmtResult(con->_con->createStatement());
+	  	unique_ptr<sql::ResultSet> res(stmtResult->executeQuery("SELECT @result AS result"));
+	  	if (res->next()) {
+	       		int result = res->getInt("result");
+	      		cout << "Result: " << result << endl;
+		  	pool_->returnConnection(std::move(con));
+		  	return result;
+	 	 }
+	 	 pool_->returnConnection(std::move(con));
 		return -1;
 	}
 	catch (sql::SQLException& e) {
